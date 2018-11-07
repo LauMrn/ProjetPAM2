@@ -31,7 +31,8 @@
             android:layout_width="100px"
             android:layout_height="100px"
             android:gravity="right"
-            android:text="OK" />
+            android:text="OK"
+            android:onClick="ButtonOk"/>
 
     </LinearLayout>
 
@@ -39,5 +40,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listView"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Send"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:gravity="right"
+            android:text="Envoyer"
+            android:onClick="ButtonEnvoyer"/>
+
+
+
+    </LinearLayout>
 
 </LinearLayout>
